@@ -5,6 +5,7 @@
  * @format
  */
 
+/*
 module.exports = {
   transformer: {
     getTransformOptions: async () => ({
@@ -14,4 +15,19 @@ module.exports = {
       },
     }),
   },
+};
+*/
+
+module.exports = {
+  resolver: {
+    blacklistRE: /backend\/.*/
+  },
+  transformer: {
+    getTransformOptions: async () => ({
+      transform: {
+        experimentalImportSupport: false,
+        inlineRequires: false
+      }
+    })
+  }
 };

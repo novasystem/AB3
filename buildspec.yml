@@ -7,8 +7,8 @@ phases:
     commands:
      - echo Build started on `date`
       - chmod +x ./gradlew
-      - ./gradlew build
+      - ./gradlew assembleRelease
 artifacts:
   files:
-    - /app/build/outputs/apk/release/*.apk
+    - /app/build/outputs/apk/debug/*.apk
   discard-paths: yes
