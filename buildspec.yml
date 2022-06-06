@@ -5,7 +5,7 @@ phases:
       - npm install
   build:
     commands:
-      - cd /android
+      - cd android
       - echo Build started on `date`
       - chmod +x ./gradlew
       - ./gradlew assembleRelease
