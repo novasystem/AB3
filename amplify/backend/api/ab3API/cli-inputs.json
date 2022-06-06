@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/status": {
+      "name": "/status",
+      "lambdaFunction": "checktrip",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/reserve": {
+      "name": "/reserve",
+      "lambdaFunction": "addReservation",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

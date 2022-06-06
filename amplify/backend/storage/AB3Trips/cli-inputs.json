@@ -1,0 +1,10 @@
+{
+  "resourceName": "AB3Trips",
+  "tableName": "AB3Trips",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
