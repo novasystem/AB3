@@ -5,7 +5,9 @@ phases:
       - npm install
   build:
     commands:
-      - npm run build
+     - echo Build started on `date`
+      - chmod +x ./gradlew
+      - ./gradlew assembleRelease --stacktrace
 artifacts:
   files:
     - “**/*”
