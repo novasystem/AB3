@@ -3,6 +3,7 @@ phases:
   pre_build:
     commands:
       - npm install
+      - sudo npm install -g @aws-amplify/cli
   build:
     commands:
       - cd android
