@@ -9,7 +9,7 @@ phases:
       - echo Build started on `date`
       - chmod +x ./gradlew
       - ./gradlew clean
-      - ./gradlew bundleRelease
+      - ./gradlew assembleRelease
 artifacts:
   files:
     - /app/build/outputs/apk/debug/*.apk
